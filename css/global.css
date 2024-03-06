@@ -33,6 +33,10 @@ rcb span{
   text-align: center;
 }
 
+.solution-block{
+  background-color: #105cad;
+}
+
 .slider-video {
   width: 100%;
   height: 100%;
