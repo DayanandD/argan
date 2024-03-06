@@ -2,18 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Moran HTML Template | Homepage</title>
 
-    <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/responsive.css" rel="stylesheet" />
     <link href="css/global.css" rel="stylesheet" />
+    <link href="css/video.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
 
     <link
       href="../../css2?family=Niramit:wght@200;400;500;600;700&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Color Switcher Mockup -->
+    <link href="css/color-switcher-design.css" rel="stylesheet" />
 
     <!-- Color Themes -->
     <link
@@ -36,33 +41,41 @@
   <body>
     <div class="page-wrapper">
       <!-- Preloader -->
-      <div class="preloader"></div>
 
       <!-- Main Header -->
-      <header class="main-header">
-        <!--Header Top-->
-        <div class="header-top">
+      <header class="main-header header-style-two">
+        <!-- Header Top Two -->
+        <!-- <div class="header-top-two">
           <div class="auto-container">
             <div class="clearfix">
-              <!--Top Left-->
-              <div class="top-left">
-                <div class="text">
-                  Welcome To Argan technology Services Pvt. Ltd. to support your
-                  Bussiness
-                </div>
+              <div class="top-left pull-left">
+                <ul class="info-list">
+                  <li>
+                    <span class="icon flaticon-maps-and-flags"></span>PO Box
+                    223158 Oliver Street East Victoria 2006 UK
+                  </li>
+                  <li>
+                    <span class="icon flaticon-call-2"></span>CALL ANYTIME :
+                    <a href="tel:666-999-0000">666 999 0000</a>
+                  </li>
+                  <li>
+                    <span class="icon flaticon-email-2"></span
+                    ><a href="mailto:needhelp@Moran.com">needhelp@Moran.com</a>
+                  </li>
+                </ul>
               </div>
 
-              <!--Top Right-->
-              <!-- <div class="top-right pull-right">
-                <div class="timing">MON - FRI 9AM - 7PM</div>
-                <div class="phone">
-                  <span>CALL ANYTIME :</span>
-                  <a href="tel:+666-888-0000">666 888 0000</a>
-                </div>
-              </div> -->
+              <div class="top-right pull-right">
+                <ul class="social-box">
+                  <li><a href="#" class="fa fa-facebook-f"></a></li>
+                  <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                  <li><a href="#" class="fa fa-dribbble"></a></li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!--Header-Upper-->
         <div class="header-upper">
@@ -71,17 +84,15 @@
               <div class="pull-left logo-box">
                 <div class="logo">
                   <a href="index.html"
-                    ><img src="images/logo.png" alt="" title=""
+                    ><img src="images/logo-3.png" alt="" title=""
                   /></a>
                 </div>
               </div>
 
               <div class="nav-outer pull-right clearfix">
-                <!-- Mobile Navigation Toggler For Mobile -->
                 <div class="mobile-nav-toggler">
                   <span class="icon flaticon-menu-3"></span>
                 </div>
-                <!-- Main Menu -->
                 <nav class="main-menu navbar-expand-md">
                   <div class="navbar-header">
                     <button
@@ -106,7 +117,7 @@
                     <ul class="navigation clearfix">
                       <li class="current dropdown">
                         <a href="#">Home</a>
-                        <ul>
+                        <!-- <ul>
                           <li><a href="index.html">Homepage One</a></li>
                           <li><a href="index-2.html">Homepage Two</a></li>
                           <li><a href="index-3.html">Homepage Three</a></li>
@@ -122,29 +133,43 @@
                               </li>
                             </ul>
                           </li>
-                        </ul>
+                        </ul> -->
                       </li>
-                      <li class="dropdown">
+                      <li>
                         <a href="#">About us</a>
-                        <ul>
+                        <!-- <ul>
                           <li><a href="about.html">About us</a></li>
                           <li><a href="price.html">Price</a></li>
                           <li><a href="faq.html">Faq's</a></li>
                           <li><a href="team.html">Team</a></li>
                           <li><a href="testimonial.html">Testimonial</a></li>
                           <li><a href="comming-soon.html">Comming Soon</a></li>
-                        </ul>
+                        </ul> -->
                       </li>
                       <li class="dropdown">
-                        <a href="#">Services</a>
+                        <a href="#">Our Businesses</a>
                         <ul>
-                          <li><a href="services.html">Services</a></li>
+                          <li class="dropdown">
+                            <a href="services.html">IOT Services</a>
+
+                            <ul>
+                              <li><a href="projects.html">Products</a></li>
+                              <li>
+                                <a href="projects-single.html">Product 2</a>
+                              </li>
+                            </ul>
+                          </li>
                           <li>
-                            <a href="services-single.html">Services Single</a>
+                            <a href="services-single.html"
+                              >Engineering Services
+                            </a>
+                          </li>
+                          <li>
+                            <a href="services-single.html">IT Services </a>
                           </li>
                         </ul>
                       </li>
-                      <li class="dropdown">
+                      <!-- <li class="dropdown">
                         <a href="#">Projects</a>
                         <ul>
                           <li><a href="projects.html">Projects</a></li>
@@ -152,8 +177,8 @@
                             <a href="projects-single.html">Projects Single</a>
                           </li>
                         </ul>
-                      </li>
-                      <li class="dropdown has-mega-menu">
+                      </li> -->
+                      <!-- <li class="dropdown has-mega-menu">
                         <a href="#">Pages</a>
                         <div class="mega-menu">
                           <div class="mega-menu-bar row clearfix">
@@ -200,26 +225,10 @@
                             </div>
                           </div>
                         </div>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">Blog</a>
-                        <ul>
-                          <li><a href="blog.html">Our Blog</a></li>
-                          <li><a href="blog-classic.html">Blog Classic</a></li>
-                          <li><a href="blog-detail.html">Blog Details</a></li>
-                          <li><a href="error-page.html">Error Page</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">Shop</a>
-                        <ul>
-                          <li><a href="shop.html">Shop</a></li>
-                          <li><a href="shop-single.html">Shop Details</a></li>
-                          <li><a href="shoping-cart.html">Cart Page</a></li>
-                          <li><a href="checkout.html">Checkout Page</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="contact.html">Contact us</a></li>
+                      </li> -->
+
+                      <li><a href="#">Careers</a></li>
+                      <li><a href="#">Contact us</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -227,23 +236,11 @@
 
                 <!-- Options Box -->
                 <div class="options-box clearfix">
-                  <!-- Search Box -->
-                  <div class="search-box-outer">
-                    <div class="search-box-btn">
-                      <span class="fa fa-search"></span>
-                    </div>
+                  <div class="btn-box">
+                    <a href="contact.html" class="theme-btn btn-style-five"
+                      ><span class="txt">Contact Now</span></a
+                    >
                   </div>
-
-                  <!-- Grid Box -->
-                  <div class="grid-box navSidebar-button">
-                    <a href="#" class="icon flaticon-menu"></a>
-                  </div>
-                </div>
-                <!-- Outer Button Box -->
-                <div class="outer-button-box">
-                  <a href="contact.html" class="theme-btn btn-style-one"
-                    ><span class="txt">Contact Now</span></a
-                  >
                 </div>
               </div>
             </div>
@@ -275,1174 +272,918 @@
       </header>
       <!-- End Main Header -->
 
-      <!--Main Slider-->
-      <section class="main-slider">
-        <div class="main-slider-carousel owl-carousel owl-theme">
-          <div
-            class="slide"
-            style="background-image: url(images/main-slider/image-1.jpg)"
-          >
-            <div
-              class="pattern-layer"
-              style="background-image: url(images/main-slider/pattern-1.png)"
-            ></div>
-            <div class="auto-container">
-              <!-- Content Box -->
-              <div class="content-box">
-                <div class="title">
-                  Welcome To Argan technology Services Pvt. Ltd.
-                </div>
-                <h1>
-                  We ‘re Fulrange <br />
-                  Design Aency
-                </h1>
-                <div class="link-box">
-                  <a href="about.html" class="theme-btn btn-style-two"
-                    ><span class="txt">Discover More</span></a
-                  >
-                </div>
-              </div>
-            </div>
+      <section class="main-slider-two" style="height: 650px">
+        <div class="rev_slider_wrapper ">
+          <!-- the ID here will be used in the JavaScript below to initialize the slider -->
+          <div id="rev_slider_1" class="rev_slider" data-version="5.4.5" style="display:none;">
+              <ul>
+                  <!-- MINIMUM SLIDE STRUCTURE -->
+                  <li data-index='rs-386' data-transition='turnoff' data-slotamount='default' data-easein='default'
+                      data-easeout='default' data-masterspeed='1500' data-thumb='' data-rotate='0'
+                      data-saveperformance='off' data-title='Turn Off Horizontal' data-description=''>
+                      <!-- MAIN IMAGE -->
+                      <div class="slider-video" width="1920" height="850" data-lazyload="assets/images/photography9.jpg"
+                          data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                          data-bgparallax="14" class="rev-slidebg" data-no-retina="">
+                          <video width="100%" autoplay="" muted="" loop="">
+                              <source src="images/video.mp4" type="video/mp4">
+                          </video>
+                      </div>
+  
+  
+                      <!-- LAYER NR. 1 -->
+                      <!-- LAYER NR. 1 -->
+                      <div class="tp-caption titel-3 tp-resizeme" id="slide-386-layer-1"
+                          data-x="['left','left','left','left']" data-hoffset="[700','10','10','10']"
+                          data-y="['top','top','top','top']" data-voffset="['180','180','180','180']"
+                          data-fontsize="['24','24','24','16']" data-lineheight="['60','60','60','30']"
+                          data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']"
+                          data-transform_idle="o:1;"
+                          data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power3.easeInOut;"
+                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                          data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-start="1000" data-splitin="none"
+                          data-splitout="none" data-responsive_offset="on"
+                          style="z-index: 5; white-space: nowrap; text-transform:uppercase; letter-spacing:4px;  color:#fff;">
+                         Transform your Idea into Digitle source
+                      </div>
+                      <!-- LAYER NR. 2 -->
+                      <div class="tp-caption titel-1   tp-resizeme" id="slide-386-layer-2"
+                          data-x="['left','left','left','left']" data-hoffset="[700','10','10','10']"
+                          data-y="['top','top','top','top']" data-voffset="['230','230','230','210']"
+                          data-fontsize="['40','40','40','55']" data-lineheight="['110','110','110','50']"
+                          data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']"
+                          data-transform_idle="o:1;"
+                          data-transform_in="x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                          data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="2000" data-splitin="none"
+                          data-splitout="none" data-responsive_offset="on"
+                          style="z-index: 6; white-space: nowrap; color:#ffffff;">Custome
+                      </div>
+                      <!-- LAYER NR. 3 -->
+                      <div class="tp-caption titel-1   tp-resizeme" id="slide-386-layer-3"
+                          data-x="['left','left','left','left']" data-hoffset="[700','10','10','10']"
+                          data-y="['top','top','top','top']" data-voffset="['320','320','320','260']"
+                          data-fontsize="['40','40','40','55']" data-lineheight="['110','110','110','50']"
+                          data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']"
+                          data-transform_idle="o:1;"
+                          data-transform_in="x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                          data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="3000" data-splitin="none"
+                          data-splitout="none" data-responsive_offset="on"
+                          style="z-index: 7; white-space: nowrap;color:#ffffff;">
+                          Software Solutions
+                          <div class="border"></div>
+                      </div>
+                      <!-- LAYER NR. 4 -->
+                      <!-- <div class="tp-caption titel-2 tp-resizeme" id="slide-386-layer-4"
+                          data-x="['left','left','left','left']" data-hoffset="[700','10','10','10']"
+                          data-y="['top','top','top','top']" data-voffset="['440','440','440','320']"
+                          data-fontsize="['20','20','20','15']" data-lineheight="['30','30','30','30']"
+                          data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']"
+                          data-transform_idle="o:1;"
+                          data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                          data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="4000" data-splitin="none"
+                          data-splitout="none" data-responsive_offset="on"
+                          style="z-index: 8; white-space: nowrap; color:#fff;">Welcome to Pradel Logistics, Your Trusted
+                      </div> -->
+                      <!-- LAYER NR. 5 -->
+                      <!-- <div class="tp-caption titel-2   tp-resizeme" id="slide-386-layer-5"
+                          data-x="['left','left','left','left']" data-hoffset="[700','10','10','10']"
+                          data-y="['top','top','top','top']" data-voffset="['470','470','470','345']"
+                          data-fontsize="['20','20','20','15']" data-lineheight="['30','30','30','30']"
+                          data-width="['auto','auto','auto','auto']" data-height="['auto','auto','auto','auto']"
+                          data-transform_idle="o:1;"
+                          data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;"
+                          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                          data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-start="4000" data-splitin="none"
+                          data-splitout="none" data-responsive_offset="on"
+                          style="z-index: 8; white-space: nowrap; color:#fff; ">Partner in Streamlined Supply Chain
+                          Solutions!
+                      </div> -->
+  
+                      <!-- LAYER NR. 7 -->
+                      <div class="tp-caption fp_button_layer   tp-resizeme" id="slide-3-layer-4"
+                          data-x="['left','left','left','left']" data-hoffset="['700','10','10','10']"
+                          data-y="['top','top','top','top']" data-voffset="['540','540','540','405']"
+                          data-fontsize="['14','14','14','12']" data-lineheight="['70','70','70','70']" data-width="none"
+                          data-height="none" data-whitespace="nowrap" data-type="button" data-actions=""
+                          data-responsive_offset="on"
+                          data-frames="[{&quot;delay&quot;:900,&quot;speed&quot;:500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[100%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;nothing&quot;}]"
+                          data-textalign="['left','left','left','left']"
+                          style="z-index: 9; white-space: nowrap; color: rgb(255, 255, 255); background-color:transparent; border-color: transparent; border-width: 2px; outline: none; box-shadow: none; box-sizing: border-box; cursor: pointer; text-decoration: none; visibility: inherit; transition: none 0s ease 0s;  line-height: 12px; margin: 0px;  letter-spacing: 0px; font-weight: 700; font-size: 16px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 44, 0, 1); transform-origin: 50% 50% 0px;">
+                          <ul class="list-inline" style="display: flex;">
+                              <li><a class="btn1" href="about.php.html">More Details</a></li>
+                              <li><a class="btn2" href="https://wa.me/9082462161" target="_blank">Let's Talk...</a></li>
+                          </ul>
+                      </div>
+                  </li>
+  
+  
+                  <!-- MINIMUM SLIDE STRUCTURE -->
+                  <!-- SLIDE  -->
+  
+  
+              </ul>
+              <!-- END SLIDES LIST -->
           </div>
-
-          <div
-            class="slide"
-            style="background-image: url(images/main-slider/image-1.jpg)"
-          >
-            <div
-              class="pattern-layer"
-              style="background-image: url(images/main-slider/pattern-1.png)"
-            ></div>
-            <div class="auto-container">
-              <!-- Content Box -->
-              <div class="content-box">
-                <div class="title">
-                  Welcome To Argan technology Services Pvt. Ltd.
-                </div>
-                <h1>
-                  We ‘re Fulrange <br />
-                  Design Aency
-                </h1>
-                <div class="link-box">
-                  <a href="about.html" class="theme-btn btn-style-two"
-                    ><span class="txt">Discover More</span></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="slide"
-            style="background-image: url(images/main-slider/image-1.jpg)"
-          >
-            <div
-              class="pattern-layer"
-              style="background-image: url(images/main-slider/pattern-1.png)"
-            ></div>
-            <div class="auto-container">
-              <!-- Content Box -->
-              <div class="content-box">
-                <div class="title">
-                  Welcome To Argan technology Services Pvt. Ltd.
-                </div>
-                <h1>
-                  We ‘re Fulrange <br />
-                  Design Aency
-                </h1>
-                <div class="link-box">
-                  <a href="about.html" class="theme-btn btn-style-two"
-                    ><span class="txt">Discover More</span></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Slider Social Nav -->
-        <ul class="slider-social-nav">
-          <li><a href="#">facebook</a></li>
-          <li><a href="#">twitter</a></li>
-          <li><a href="#">youtube</a></li>
-        </ul>
-        <!-- Scroll Down Btn -->
-        <div
-          class="mouse-btn-down scroll-to-target"
-          data-target=".solution-section"
-        >
-          <span class="icon fa fa-anchor"></span>
-        </div>
+          <!-- END SLIDER CONTAINER -->
+      </div> 
       </section>
-      <!--End Main Slider-->
 
-      <!-- Success Section -->
-      <section class="success-section">
+      <!-- Solution Section Two -->
+      <section class="solution-section-two" style="padding: 5% 0%;">
+        <div
+          class="pattern-layer"
+          style="
+            background-image: url(images/bg-1.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        ></div>
         <div class="auto-container">
           <div class="row clearfix">
-            <!-- Content Column -->
-            <div class="content-column col-lg-6 col-md-12 col-sm-12">
+            <!-- Image Column -->
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
               <div class="inner-column">
-                <h2>
-                  Filure is The Condiment <br />
-                  That Gives <span>Success</span>
-                </h2>
-                <div class="bold-text">
-                  We are commited to providing our customers with <br />
-                  exceptional service while offering our employees the best
-                  training.
-                </div>
-                <div class="text">
-                  We are a strong and worthy competitor in the field of web
-                  development. We work together with a client as a team. This
-                  allows us to identify customer needs and offer the best
-                  solution. A team of diverse specialists works on each project.
-                  Interaction with the client is carried out at all stages of
-                  the project:
-                </div>
-                <div class="row clearfix">
-                  <!-- Column -->
-                  <div class="column col-lg-6 col-md-6 col-sm-12">
-                    <ul class="list">
-                      <li>Research of social networks</li>
-                      <li>Launch of advertising campaign</li>
-                    </ul>
-                  </div>
-                  <!-- Column -->
-                  <div class="column col-lg-6 col-md-6 col-sm-12">
-                    <ul class="list">
-                      <li>Strategy development</li>
-                      <li>Analysis and conclusions</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="btn-box">
-                  <a href="about.html" class="theme-btn btn-style-three"
-                    ><span class="txt">Read More</span></a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <!-- Images Column -->
-            <div class="images-column col-lg-6 col-md-12 col-sm-12">
-              <div class="inner-column">
-                <div
-                  class="pattern-layer"
-                  style="background-image: url(images/background/pattern-3.png)"
-                ></div>
-                <div class="year-box">SINCE 2006</div>
                 <div
                   class="image wow fadeInLeft"
                   data-wow-delay="0ms"
                   data-wow-duration="1500ms"
                 >
-                  <img src="images/resource/success-1.jpg" alt="" />
+                  <img src="images/resource/solution-1.jpg" alt="" />
                 </div>
                 <div
                   class="image-two wow fadeInRight"
                   data-wow-delay="0ms"
                   data-wow-duration="1500ms"
                 >
-                  <img src="images/resource/success-2.jpg" alt="" />
+                  <img src="images/resource/solution-2.jpg" alt="" />
                 </div>
+              </div>
+            </div>
+
+            <!-- Content Column -->
+            <div class="content-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <div class="sec-title">
+                  <h2>
+                    Tailormade Custom <br />
+                    & Software development and
+                    <span>Mobile app development</span>
+                  <rcb>
+                  <!-- <div class="text">
+                    More Cost-effective and Steadfast Custom Software tailored for your business effectiveness and productivity
+                  </div> -->
+                </div>
+                <ul class="column-list">
+                  <li>
+                    More Cost-effective and Steadfast Custom Software tailored
+                    for your business effectiveness and productivity
+                  </li>
+                  <li>
+                    Agran’s Project Management and custom software development
+                    teams understand your challenges and builds highly scalable,
+                    tailored functions which helps you make the best of your IT
+                    investments
+                  </li>
+                  <li>
+                    We are team with expert project management, software
+                    developers, Testers, Business analysts who can understand
+                    your requirements and build a software as you need
+                  </li>
+                </ul>
+                <!-- <div class="question">
+                  Have Any Question?<br /><a href="contact.html"
+                    ><span class="flaticon-right-arrow-1"></span>Book an
+                    appointment</a
+                  >
+                </div> -->
+                <!-- <div class="author-box">
+                  <div class="box-inner">
+                    <div class="author-image">
+                      <img src="images/resource/author-3.jpg" alt="" />
+                    </div>
+                    <div class="signature">
+                      <img src="images/icons/signature.png" alt="" />
+                    </div>
+                  </div>
+                </div> -->
+                <!-- Satisfy Box -->
+                <!-- <div class="satisfy-box">
+                  <div class="icon flaticon-satisfaction"></div>
+                  <h3>
+                    CLIENT % 100 <br />
+                    <span>SATISFy</span>
+                  </h3>
+                </div> -->
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Success Section -->
+      <!-- End Solution Section Two -->
 
-      <!-- Counter Section -->
-      <section class="counter-section">
+    
+
+      <section class="faq-page-section">
         <div class="auto-container">
-          <div class="inner-container">
-            <div
-              class="pattern-layer"
-              style="background-image: url(images/background/pattern-4.jpg)"
-            ></div>
-            <!-- Fact Counter -->
-            <div class="fact-counter">
-              <div class="row clearfix">
-                <!--Column-->
-                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                  <div
-                    class="inner wow fadeInLeft"
-                    data-wow-delay="0ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div class="content">
-                      <div class="icon flaticon-robot-arm"></div>
-                      <div class="count-outer count-box">
-                        <span
-                          class="count-text"
-                          data-speed="2500"
-                          data-stop="10"
-                          >0</span
-                        >+
-                      </div>
-                      <h4 class="counter-title">Years of success</h4>
-                    </div>
+          <div class="row clearfix">
+            <!-- Video Column -->
+            <div class="video-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <div
+                  class="pattern-layer"
+                  style="
+                    background-image: url(images/background/pattern-22.png);
+                  "
+                ></div>
+                <!-- Sec Title -->
+                <!-- hi -->
+                <div class="sec-title">
+                  <rcb>
+                    What We <span>Do</span>
+                  </rcb>
+                  <div class="text">
+                    We are committed to providing our customers with exceptional
+                    service while offering our employees the best training.
+                  </div>
+                  <div class="video-image">
+                    <img src="images/resource/video-image.jpg" alt="" />
+                   
                   </div>
                 </div>
+               
+              </div>
+            </div>
 
-                <!--Column-->
-                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                  <div
-                    class="inner wow fadeInLeft"
-                    data-wow-delay="300ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div class="content">
-                      <div class="icon flaticon-intellectual"></div>
-                      <div class="count-outer count-box alternate">
-                        <span
-                          class="count-text"
-                          data-speed="3000"
-                          data-stop="750"
-                          >0</span
-                        >+
+            <!-- Accordion Column -->
+            <div class="accordion-column col-lg-6 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <!--Accordian Box-->
+                <ul class="accordion-box style-two">
+                  <!--Block-->
+                  <li class="accordion block">
+                    <div class="acc-btn">
+                      <div class="icon-outer">
+                        <span class="icon icon-plus fa fa-plus"></span>
+                        <span class="icon icon-minus fa fa-minus"></span>
                       </div>
-                      <h4 class="counter-title">Completed projects</h4>
+                      <span class="number"></span>Custom Software Development Services
                     </div>
-                  </div>
-                </div>
+                    <div class="acc-content">
+                      <div class="row clearfix">
+                        <!-- Solution Block -->
+                        <div class="solution-block col-lg-6 col-md-6 col-sm-12">
+                          <div
+                            class="inner-box wow fadeInUp"
+                            data-wow-delay="0ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div
+                              class="solution-pattern-layer"
+                              style="
+                                background-image: url(images/background/pattern-2.png);
+                              "
+                            ></div>
+                            <div
+                              class="solution-pattern-layer-two"
+                              style="
+                                background-image: url(images/background/pattern-27.png);
+                              "
+                            ></div>
+                            <div class="icon-box">
+                              <span class="icon flaticon-seo"></span>
+                            </div>
+                            <h3>
+                              <a href="services-single.html"
+                                >Custom Software Development Services
+                              </a>
+                            </h3>
+                            <div class="text">
+                              To stay competitive in a highty volatile digital
+                              landscape, custom software development is the saviour.
+                              It helps to meet dested business efficiency that
+                              delivers just the right outcome in terms
+                            </div>
+                            <span class="side-icon flaticon-seo"></span>
+                          </div>
+                          <a class="arrow" href="services-single.html"
+                            ><span
+                              class="flaticon-angle-arrow-pointing-to-right"
+                            ></span
+                          ></a>
+                        </div>
+      
+                        <!-- Solution Block -->
+                        
+                      </div>
+                    </div>
+                  </li>
 
-                <!--Column-->
-                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                  <div
-                    class="inner wow fadeInLeft"
-                    data-wow-delay="600ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div class="content">
-                      <div class="icon flaticon-plumber"></div>
-                      <div class="count-outer count-box">
-                        <span
-                          class="count-text"
-                          data-speed="3000"
-                          data-stop="150"
-                          >0</span
-                        >+
+                  <!--Block-->
+                  <li class="accordion block">
+                    <div class="acc-btn">
+                      <div class="icon-outer">
+                        <span class="icon icon-plus fa fa-plus"></span>
+                        <span class="icon icon-minus fa fa-minus"></span>
                       </div>
-                      <h4 class="counter-title">Regular customers</h4>
+                      <span class="number"></span>Software Consulting Services
                     </div>
-                  </div>
-                </div>
+                    <div class="acc-content current">
+                      <div class="content">
+                        <div class="solution-block col-lg-6 col-md-6 col-sm-12">
+                          <div
+                            class="inner-box wow fadeInDown"
+                            data-wow-delay="0ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div
+                              class="solution-pattern-layer"
+                              style="
+                                background-image: url(images/background/pattern-2.png);
+                              "
+                            ></div>
+                            <div
+                              class="solution-pattern-layer-two"
+                              style="
+                                background-image: url(images/background/pattern-27.png);
+                              "
+                            ></div>
+                            <div class="icon-box">
+                              <span class="icon flaticon-campaign"></span>
+                            </div>
+                            <h3>
+                              <a href="services-single.html"
+                                >Software Consulting Services
+                              </a>
+                            </h3>
+                            <div class="text">
+                              As one of the best software development consulting
+                              agencies, we brainstorm on your business needs, build a
+                              layout, and finally recommend The right software
+                              solutions. Our tear Chhes thi rod tecinoiogy stack，
+                              Feeping your business objectives in
+                            </div>
+                            <span class="side-icon flaticon-campaign"></span>
+                          </div>
+                          <a class="arrow" href="services-single.html"
+                            ><span
+                              class="flaticon-angle-arrow-pointing-to-right"
+                            ></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
 
-                <!--Column-->
-                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
-                  <div
-                    class="inner wow fadeInLeft"
-                    data-wow-delay="900ms"
-                    data-wow-duration="1500ms"
-                  >
-                    <div class="content">
-                      <div class="icon flaticon-gear"></div>
-                      <div class="count-outer count-box">
-                        <span
-                          class="count-text"
-                          data-speed="2500"
-                          data-stop="500"
-                          >0</span
-                        >+
+                  <!--Block-->
+                  <li class="accordion block">
+                    <div class="acc-btn">
+                      <div class="icon-outer">
+                        <span class="icon icon-plus fa fa-plus"></span>
+                        <span class="icon icon-minus fa fa-minus"></span>
                       </div>
-                      <h4 class="counter-title">Positive Reviews</h4>
+                      <span class="number"></span>Software Product Development Services
                     </div>
-                  </div>
-                </div>
+                    <div class="acc-content">
+                      <div class="content">
+                        <div class="solution-block col-lg-6 col-md-6 col-sm-12">
+                          <div
+                            class="inner-box wow fadeInUp"
+                            data-wow-delay="0ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div
+                              class="solution-pattern-layer"
+                              style="
+                                background-image: url(images/background/pattern-2.png);
+                              "
+                            ></div>
+                            <div
+                              class="solution-pattern-layer-two"
+                              style="
+                                background-image: url(images/background/pattern-27.png);
+                              "
+                            ></div>
+                            <div class="icon-box">
+                              <span class="icon flaticon-layout-1"></span>
+                            </div>
+                            <h3>
+                              <a href="services-single.html"
+                                >Software Product Development Services</a
+                              >
+                            </h3>
+                            <div class="text">
+                              We provide your business organisation with robust and
+                              end-to-end product development services. Our process
+                              starts with deep market research, • requirement
+                              gathering, develogment, testing, deployment, and
+                              timely maintenance.
+                            </div>
+                            <span class="side-icon flaticon-layout"></span>
+                          </div>
+                          <a class="arrow" href="services-single.html"
+                            ><span
+                              class="flaticon-angle-arrow-pointing-to-right"
+                            ></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!--Block-->
+                  <li class="accordion block">
+                    <div class="acc-btn">
+                      <div class="icon-outer">
+                        <span class="icon icon-plus fa fa-plus"></span>
+                        <span class="icon icon-minus fa fa-minus"></span>
+                      </div>
+                      <span class="number"></span>Software Integration Services
+                    </div>
+                    <div class="acc-content">
+                      <div class="content">
+                        <div class="solution-block col-lg-6 col-md-6 col-sm-12">
+                          <div
+                            class="inner-box wow fadeInDown"
+                            data-wow-delay="0ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div
+                              class="solution-pattern-layer"
+                              style="
+                                background-image: url(images/background/pattern-2.png);
+                              "
+                            ></div>
+                            <div
+                              class="solution-pattern-layer-two"
+                              style="
+                                background-image: url(images/background/pattern-27.png);
+                              "
+                            ></div>
+                            <div class="icon-box">
+                              <span class="icon flaticon-call-1"></span>
+                            </div>
+                            <h3>
+                              <a href="services-single.html"
+                                >Software Integration Services
+                              </a>
+                            </h3>
+                            <div class="text">
+                              No neip our cinets adopt the latest Fectaeges and
+                              elminate possible Shaleroes faced during the integration
+                              proorss Cur onelones ase aouance Decrniases to handle at
+                              software Hotea atoo chalonges comprised of
+                            </div>
+                            <span class="side-icon flaticon-graphic-design"></span>
+                          </div>
+                          <a class="arrow" href="services-single.html"
+                            ><span
+                              class="flaticon-angle-arrow-pointing-to-right"
+                            ></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!--Block-->
+                  <li class="accordion block">
+                    <div class="acc-btn">
+                      <div class="icon-outer">
+                        <span class="icon icon-plus fa fa-plus"></span>
+                        <span class="icon icon-minus fa fa-minus"></span>
+                      </div>
+                      <span class="number"></span>Enterprise Software Development
+                    </div>
+                    <div class="acc-content">
+                      <div class="content">
+                        <div class="solution-block col-lg-6 col-md-6 col-sm-12">
+                          <div
+                            class="inner-box wow fadeInUp"
+                            data-wow-delay="0ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div
+                              class="solution-pattern-layer"
+                              style="
+                                background-image: url(images/background/pattern-2.png);
+                              "
+                            ></div>
+                            <div
+                              class="solution-pattern-layer-two"
+                              style="
+                                background-image: url(images/background/pattern-27.png);
+                              "
+                            ></div>
+                            <div class="icon-box">
+                              <span class="icon flaticon-layout"></span>
+                            </div>
+                            <h3>
+                              <a href="services-single.html"
+                                >Enterprise Software Development
+                              </a>
+                            </h3>
+                            <div class="text">
+                              BeiggeKe fae srtefprisa softaare lod-performing busness
+                              operations. We priortise te-engineering enterprae
+                              softaare soutions.
+                            </div>
+                            <span class="side-icon flaticon-layout"></span>
+                          </div>
+                          <a class="arrow" href="services-single.html"
+                            ><span
+                              class="flaticon-angle-arrow-pointing-to-right"
+                            ></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="accordion block">
+                    <div class="acc-btn">
+                      <div class="icon-outer">
+                        <span class="icon icon-plus fa fa-plus"></span>
+                        <span class="icon icon-minus fa fa-minus"></span>
+                      </div>
+                      <span class="number"></span>Software Maintaince Services
+                    </div>
+                    <div class="acc-content">
+                      <div class="content">
+                        <div class="solution-block col-lg-6 col-md-6 col-sm-12">
+                          <div
+                            class="inner-box wow fadeInDown"
+                            data-wow-delay="0ms"
+                            data-wow-duration="1500ms"
+                          >
+                            <div
+                              class="solution-pattern-layer"
+                              style="
+                                background-image: url(images/background/pattern-2.png);
+                              "
+                            ></div>
+                            <div
+                              class="solution-pattern-layer-two"
+                              style="
+                                background-image: url(images/background/pattern-27.png);
+                              "
+                            ></div>
+                            <div class="icon-box">
+                              <span class="icon flaticon-graphic-design"></span>
+                            </div>
+                            <h3>
+                              <a href="services-single.html"
+                                >Software Maintaince Services
+                              </a>
+                            </h3>
+                            <div class="text">
+                              Leverage timety software support services to keep your
+                              business running smoothly in a competite do tal space.
+                              We have expertise with third party Apt integration for
+                              efficient sorkliom of busness daly actretes
+                            </div>
+                            <span class="side-icon flaticon-graphic-design"></span>
+                          </div>
+                          <a class="arrow" href="services-single.html"
+                            ><span
+                              class="flaticon-angle-arrow-pointing-to-right"
+                            ></span
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Counter Section -->
 
-      <!-- Solution Section -->
-      <section class="solution-section">
+      <!-- Business Section -->
+      <section class="business-section">
         <div
-          class="pattern-layer"
-          style="background-image: url(images/background/pattern-1.png)"
+          class="lower-pattern"
+          style="background-image: url(images/background/pattern-20.png)"
         ></div>
         <div class="auto-container">
-          <!-- Sec Title -->
-          <div class="sec-title light centered">
-            <h2>We Make The Perfect <span>Solutions</span></h2>
-            <div class="text">
-              We are committed to providing our customers with exceptional
-              service <br />
-              while offering our employees the best training.
-            </div>
-          </div>
-          <div class="four-item-carousel owl-carousel owl-theme">
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-layout"></span>
+          <div class="row clearfix">
+            <!-- Image Column -->
+            <div class="image-column col-lg-12 col-md-12 col-sm-12">
+              <div class="inner-column">
+                <!-- <div class="image">
+                  <img src="images/resource/business.jpg" alt="" />
+                </div> -->
+                <div class="business-graph">
+                  <div class="row clearfix">
+                    <!-- Counter Boxed -->
+                    <div class="counter-boxed col-lg-3 col-md-3 col-sm-12">
+                      <div class="graph-outer">
+                        <input
+                          type="text"
+                          class="dial"
+                          data-fgcolor="#18c5fe"
+                          data-bgcolor="#3c3e3f"
+                          data-width="125"
+                          data-height="125"
+                          data-linecap="normal"
+                          value="87"
+                          thickness="0.05"
+                        />
+                        <div class="inner-text count-box">
+                          <span
+                            class="count-text"
+                            data-stop="20"
+                            data-speed="3500"
+                          ></span
+                          >+
+                        </div>
+                        <h6>Years of experience</h6>
+                      </div>
+                    </div>
+
+                    <!-- Counter Boxed -->
+                    <div class="counter-boxed col-lg-3 col-md-3 col-sm-12">
+                      <div class="graph-outer">
+                        <input
+                          type="text"
+                          class="dial"
+                          data-fgcolor="#18c5fe"
+                          data-bgcolor="#3c3e3f"
+                          data-width="125"
+                          data-height="125"
+                          data-linecap="normal"
+                          value="75"
+                          thickness="0.05"
+                        />
+                        <div class="inner-text count-box">
+                          <span
+                            class="count-text"
+                            data-stop="50"
+                            data-speed="3500"
+                          ></span
+                          >+
+                        </div>
+                        <h6>Specialists</h6>
+                      </div>
+                    </div>
+                    <div class="counter-boxed col-lg-3 col-md-3 col-sm-12">
+                      <div class="graph-outer">
+                        <input
+                          type="text"
+                          class="dial"
+                          data-fgcolor="#18c5fe"
+                          data-bgcolor="#3c3e3f"
+                          data-width="125"
+                          data-height="125"
+                          data-linecap="normal"
+                          value="87"
+                          thickness="0.05"
+                        />
+                        <div class="inner-text count-box">
+                          <span
+                            class="count-text"
+                            data-stop="96"
+                            data-speed="3500"
+                          ></span
+                          >%
+                        </div>
+                        <h6>Increased ROI</h6>
+                      </div>
+                    </div>
+
+                    <!-- Counter Boxed -->
+                    <div class="counter-boxed col-lg-3 col-md-3 col-sm-12">
+                      <div class="graph-outer">
+                        <input
+                          type="text"
+                          class="dial"
+                          data-fgcolor="#18c5fe"
+                          data-bgcolor="#3c3e3f"
+                          data-width="125"
+                          data-height="125"
+                          data-linecap="normal"
+                          value="90"
+                          thickness="0.05"
+                        />
+                        <div class="inner-text count-box">
+                          <span
+                            class="count-text"
+                            data-stop="90"
+                            data-speed="3500"
+                          ></span
+                          >%
+                        </div>
+                        <h6>Skilled Person</h6>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <h3><a href="services-single.html">WEBSITE DEVELOPMENT</a></h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-layout"></span>
               </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
             </div>
 
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-graphic-design"></span>
-                </div>
-                <h3>
-                  <a href="services-single.html"
-                    >UI/UX <br />
-                    DESIGNING</a
-                  >
-                </h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-graphic-design"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-seo"></span>
-                </div>
-                <h3>
-                  <a href="services-single.html"
-                    >SEO & CONTENT <br />
-                    WRITING</a
-                  >
-                </h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-seo"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-campaign"></span>
-                </div>
-                <h3>
-                  <a href="services-single.html"
-                    >DIGITAL <br />
-                    MARKETING</a
-                  >
-                </h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-campaign"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-layout"></span>
-                </div>
-                <h3><a href="services-single.html">WEBSITE DEVELOPMENT</a></h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-layout"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-graphic-design"></span>
-                </div>
-                <h3>
-                  <a href="services-single.html"
-                    >UI/UX <br />
-                    DESIGNING</a
-                  >
-                </h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-graphic-design"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-seo"></span>
-                </div>
-                <h3>
-                  <a href="services-single.html"
-                    >SEO & CONTENT <br />
-                    WRITING</a
-                  >
-                </h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-seo"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-campaign"></span>
-                </div>
-                <h3>
-                  <a href="services-single.html"
-                    >DIGITAL <br />
-                    MARKETING</a
-                  >
-                </h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-campaign"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-layout"></span>
-                </div>
-                <h3><a href="services-single.html">WEBSITE DEVELOPMENT</a></h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-layout"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-graphic-design"></span>
-                </div>
-                <h3>
-                  <a href="services-single.html"
-                    >UI/UX <br />
-                    DESIGNING</a
-                  >
-                </h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-graphic-design"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-seo"></span>
-                </div>
-                <h3>
-                  <a href="services-single.html"
-                    >SEO & CONTENT <br />
-                    WRITING</a
-                  >
-                </h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-seo"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
-
-            <!-- Solution Block -->
-            <div class="solution-block">
-              <div class="inner-box">
-                <div
-                  class="solution-pattern-layer"
-                  style="background-image: url(images/background/pattern-2.png)"
-                ></div>
-                <div
-                  class="solution-pattern-layer-two"
-                  style="
-                    background-image: url(images/background/pattern-27.png);
-                  "
-                ></div>
-                <div class="icon-box">
-                  <span class="icon flaticon-campaign"></span>
-                </div>
-                <h3>
-                  <a href="services-single.html"
-                    >DIGITAL <br />
-                    MARKETING</a
-                  >
-                </h3>
-                <div class="text">
-                  We are committed to providing our customers with service while
-                  offering ...
-                </div>
-                <span class="side-icon flaticon-campaign"></span>
-              </div>
-              <a class="arrow" href="services-single.html"
-                ><span class="flaticon-angle-arrow-pointing-to-right"></span
-              ></a>
-            </div>
+            <!-- Content Column -->
           </div>
         </div>
       </section>
-      <!-- End Solution Section -->
+      <!-- End Business Section -->
 
-      <!-- Fluid Section One -->
-      <section class="fluid-section-one">
-        <div class="outer-container clearfix">
-          <!-- Image Column -->
-          <div
-            class="image-column"
-            style="background-image: url(images/resource/image-1.jpg)"
-          >
-            <h3>Agency That Gets Excited About</h3>
-            <a
-              href="https://www.youtube.com/watch?v=kxPCFljwJws"
-              class="lightbox-image video-box"
-              ><span class="flaticon-play-arrow"><i class="ripple"></i></span
-            ></a>
-            <figure class="image-box">
-              <img src="images/resource/image-1.jpg" alt="" />
-            </figure>
-          </div>
-
-          <!-- Content Column -->
-          <div class="content-column">
-            <div class="inner-column">
-              <div class="sec-title">
-                <h2>
-                  We Accomplish <br />
-                  All The More <span>Stages</span>
-                </h2>
-                <div class="text">
-                  There are many variatns of passages the majority have suffered
-                  alteration in some foor randomised words believable.
-                </div>
-              </div>
-
-              <!--Accordian Box-->
-              <ul class="accordion-box">
-                <!--Block-->
-                <li class="accordion block">
-                  <div class="acc-btn">
-                    <div class="icon-outer">
-                      <span class="icon icon-plus fa fa-plus"></span>
-                      <span class="icon icon-minus fa fa-minus"></span>
-                    </div>
-                    <span class="number">1.</span>WE HELP TO Make VISUAL Systems
-                  </div>
-                  <div class="acc-content">
-                    <div class="content">
-                      <div class="text">
-                        <p>
-                          There are many variations of passages the majority
-                          have suffered alteration in some fo injected humour,
-                          or randomised words believable.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <!--Block-->
-                <li class="accordion block">
-                  <div class="acc-btn active">
-                    <div class="icon-outer">
-                      <span class="icon icon-plus fa fa-plus"></span>
-                      <span class="icon icon-minus fa fa-minus"></span>
-                    </div>
-                    <span class="number">2.</span>Movement Illustrations and
-                    Liveliness
-                  </div>
-                  <div class="acc-content current">
-                    <div class="content">
-                      <div class="text">
-                        <p>
-                          There are many variations of passages the majority
-                          have suffered alteration in some fo injected humour,
-                          or randomised words believable.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <!--Block-->
-                <li class="accordion block">
-                  <div class="acc-btn">
-                    <div class="icon-outer">
-                      <span class="icon icon-plus fa fa-plus"></span>
-                      <span class="icon icon-minus fa fa-minus"></span>
-                    </div>
-                    <span class="number">3.</span>WE HELP TO Accomplish Common
-                    Objectives
-                  </div>
-                  <div class="acc-content">
-                    <div class="content">
-                      <div class="text">
-                        <p>
-                          There are many variations of passages the majority
-                          have suffered alteration in some fo injected humour,
-                          or randomised words believable.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Fluid Section One -->
-
-      <!-- Projects Section -->
-      <section class="projects-section">
+      <section class="news-section-three">
         <div class="auto-container">
-          <!-- Sec Title -->
-          <div class="sec-title centered">
-            <h2>
-              LASTET WORKING PROJECT <br />
-              WORK <span>SHOWCASE</span>
-            </h2>
+          <div class="sec-title">
+            <rcb>technologies We <span>Serve</span></rcb>
           </div>
-
-          <!--MixitUp Galery-->
-          <div class="mixitup-gallery">
-            <!--Filter-->
-            <div class="filters text-center clearfix">
-              <ul class="filter-tabs filter-btns clearfix">
-                <li class="active filter" data-role="button" data-filter="all">
-                  All
-                </li>
-                <li class="filter" data-role="button" data-filter=".branding">
-                  BRANDING
-                </li>
-                <li
-                  class="filter"
-                  data-role="button"
-                  data-filter=".illustration"
-                >
-                  ILLUSTRATION
-                </li>
-                <li
-                  class="filter"
-                  data-role="button"
-                  data-filter=".photography"
-                >
-                  PHOTOGRAPHY
-                </li>
-                <li class="filter" data-role="button" data-filter=".web-design">
-                  WEB DESIGN
-                </li>
-              </ul>
-            </div>
-
-            <div class="filter-list row clearfix">
-              <!-- Gallery Block -->
-              <div
-                class="gallery-block mix web-design photography col-lg-4 col-md-6 col-sm-12"
-              >
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="images/gallery/1.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="content">
-                        <h5>
-                          <a href="projects-single.html">Wesite Creation</a>
-                        </h5>
-                        <div class="designation">
-                          New Solutions And Excellent
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Gallery Block -->
-              <div
-                class="gallery-block mix photography illustration col-lg-4 col-md-6 col-sm-12"
-              >
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="images/gallery/2.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="content">
-                        <h5>
-                          <a href="projects-single.html">Wesite Creation</a>
-                        </h5>
-                        <div class="designation">
-                          New Solutions And Excellent
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Gallery Block -->
-              <div
-                class="gallery-block mix web-design branding col-lg-4 col-md-6 col-sm-12"
-              >
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="images/gallery/3.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="content">
-                        <h5>
-                          <a href="projects-single.html">Wesite Creation</a>
-                        </h5>
-                        <div class="designation">
-                          New Solutions And Excellent
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Gallery Block -->
-              <div
-                class="gallery-block mix web-design branding col-lg-4 col-md-6 col-sm-12"
-              >
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="images/gallery/4.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="content">
-                        <h5>
-                          <a href="projects-single.html">Wesite Creation</a>
-                        </h5>
-                        <div class="designation">
-                          New Solutions And Excellent
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Gallery Block -->
-              <div
-                class="gallery-block mix photography branding illustration col-lg-8 col-md-12 col-sm-12"
-              >
-                <div class="inner-box">
-                  <div class="image">
-                    <img src="images/gallery/5.jpg" alt="" />
-                    <div class="overlay-box">
-                      <div class="content">
-                        <h5>
-                          <a href="projects-single.html">Wesite Creation</a>
-                        </h5>
-                        <div class="designation">
-                          New Solutions And Excellent
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="btn-box text-center">
-            <a href="about.html" class="theme-btn btn-style-three"
-              ><span class="txt">More Discover</span></a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- End Projects Section -->
-
-      <!-- CTA Section -->
-      <section
-        class="cta-section"
-        style="background-image: url(images/background/1.jpg)"
-      >
-        <div class="auto-container">
-          <div class="icon flaticon-code"></div>
-          <h2>
-            Extraordinary Things in Business are <br />
-            Never Done By One Individual. <br />
-            <span>THEY'RE Finished by a Group of Individuals.</span>
-          </h2>
-          <div class="btn-box text-center">
-            <a href="about.html" class="theme-btn btn-style-four"
-              ><span class="txt">More Discover</span></a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- End CTA Section -->
-
-      <!-- Testimonial Section -->
-      <section class="testimonial-section">
-        <div
-          class="pattern-layer"
-          style="background-image: url(images/background/pattern-5.png)"
-        ></div>
-        <div class="auto-container">
-          <!-- Sec Title -->
-          <div class="sec-title centered">
-            <h2>
-              What says Our <br />
-              CUSTOMER <span>Responce</span>
-            </h2>
-          </div>
-          <div class="testimonial-carousel owl-carousel owl-theme">
-            <!-- Testimonial Block -->
-            <div class="testimonial-block">
+          <div class="three-item-carousel owl-carousel owl-theme">
+            <!-- News Block Three -->
+            <div class="news-block-three">
               <div class="inner-box">
-                <div class="author-box">
-                  <div class="rating">
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                  </div>
-                  <div class="box-inner">
-                    <div class="quote-icon flaticon-quote-1"></div>
-                    <div class="image">
-                      <img src="images/resource/author-1.png" alt="" />
+                <div
+                  class="pattern-layer"
+                  style="
+                    background-image: url(images/background/pattern-16.png);
+                  "
+                ></div>
+                <div class="image">
+                  <img src="images/resource/news-7.jpg" alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li><i class="fab fa-aws icon"></i>AWS</li>
+                        <li><i class="fab fa-google icon"></i>GCP</li>
+                        <li><i class="fas fa-cloud icon"></i>Cloude</li>
+                      </ul>
                     </div>
-                    <h4>Angilina MArker</h4>
-                    <div class="designation">Business CEO</div>
+                  </div>
+
+                  <div class="category">Language</div>
+                </div>
+                <!-- <div class="lower-content">
+                  <h3>
+                    <a href="blog-detail.html"
+                      >Creative Para Jóvenes: a Designer’s UI/UX Complete
+                      Checklist.</a
+                    >
+                  </h3>
+                  <div class="btn-box">
+                    <a href="blog-detail.html" class="theme-btn btn-style-five"
+                      ><span class="txt">Learn More</span></a
+                    >
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+            <!-- News Block Three -->
+            <div class="news-block-three">
+              <div class="inner-box">
+                <div
+                  class="pattern-layer"
+                  style="
+                    background-image: url(images/background/pattern-16.png);
+                  "
+                ></div>
+                <div class="image">
+                  <img src="images/resource/news-8.jpg" alt="" />
+                  <div class="category">Framework</div>
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li><i class="fab fa-aws icon"></i>AWS</li>
+                        <li><i class="fab fa-google icon"></i>GCP</li>
+                        <li><i class="fas fa-cloud icon"></i>Cloude</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <div class="text">
-                  “Website development begins with the fact that a specialist
-                  professionally studies your market, target audience and
-                  competitors. For each customer, we draw up detailed
-                  instructions“
+                <!-- <div class="lower-content">
+                  <h3>
+                    <a href="blog-detail.html"
+                      >Definitive Guide to Make a Daily More Productive Working
+                      Flow.</a
+                    >
+                  </h3>
+                  <div class="btn-box">
+                    <a href="blog-detail.html" class="theme-btn btn-style-five"
+                      ><span class="txt">Learn More</span></a
+                    >
+                  </div>
+                </div> -->
+              </div>
+            </div>
+
+            <!-- News Block Three -->
+            <div class="news-block-three">
+              <div class="inner-box">
+                <div
+                  class="pattern-layer"
+                  style="
+                    background-image: url(images/background/pattern-16.png);
+                  "
+                ></div>
+                <div class="image">
+                  <img src="images/resource/news-9.jpg" alt="" />
+                  <div class="category">Database</div>
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li><i class="fab fa-aws icon"></i>AWS</li>
+                        <li><i class="fab fa-google icon"></i>GCP</li>
+                        <li><i class="fas fa-cloud icon"></i>Cloude</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <!-- Testimonial Block -->
-            <div class="testimonial-block">
+            <!-- News Block Three -->
+            <div class="news-block-three">
               <div class="inner-box">
-                <div class="author-box">
-                  <div class="rating">
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                  </div>
-                  <div class="box-inner">
-                    <div class="quote-icon flaticon-quote-1"></div>
-                    <div class="image">
-                      <img src="images/resource/author-2.png" alt="" />
+                <div
+                  class="pattern-layer"
+                  style="
+                    background-image: url(images/background/pattern-16.png);
+                  "
+                ></div>
+                <div class="image">
+                  <img src="images/resource/news-7.jpg" alt="" />
+                  <div class="category">Other Technologies</div>
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li><i class="fab fa-aws icon"></i>AWS</li>
+                        <li><i class="fab fa-google icon"></i>GCP</li>
+                        <li><i class="fas fa-cloud icon"></i>Cloude</li>
+                      </ul>
                     </div>
-                    <h4>Jackes Smith</h4>
-                    <div class="designation">Market Manager</div>
                   </div>
-                </div>
-                <div class="text">
-                  “Website development begins with the fact that a specialist
-                  professionally studies your market, target audience and
-                  competitors. For each customer, we draw up detailed
-                  instructions“
                 </div>
               </div>
             </div>
 
-            <!-- Testimonial Block -->
-            <div class="testimonial-block">
+            <!-- News Block Three -->
+            <div class="news-block-three">
               <div class="inner-box">
-                <div class="author-box">
-                  <div class="rating">
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                  </div>
-                  <div class="box-inner">
-                    <div class="quote-icon flaticon-quote-1"></div>
-                    <div class="image">
-                      <img src="images/resource/author-1.png" alt="" />
+                <div
+                  class="pattern-layer"
+                  style="
+                    background-image: url(images/background/pattern-16.png);
+                  "
+                ></div>
+                <div class="image">
+                  <img src="images/resource/news-8.jpg" alt="" />
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li><i class="fab fa-aws icon"></i>AWS</li>
+                        <li><i class="fab fa-google icon"></i>GCP</li>
+                        <li><i class="fas fa-cloud icon"></i>Cloude</li>
+                      </ul>
                     </div>
-                    <h4>Angilina MArker</h4>
-                    <div class="designation">Business CEO</div>
                   </div>
-                </div>
-                <div class="text">
-                  “Website development begins with the fact that a specialist
-                  professionally studies your market, target audience and
-                  competitors. For each customer, we draw up detailed
-                  instructions“
-                </div>
-              </div>
-            </div>
+                  <style>
+                    .overlay {
+                      position: absolute;
+                      top: 0;
+                      bottom: 0;
+                      left: 0;
+                      right: 0;
+                      background-color: rgba(
+                        0,
+                        0,
+                        0,
+                        0.5
+                      ); /* Adjust opacity as needed */
+                      opacity: 0;
+                      transition: opacity 0.5s;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                    }
 
-            <!-- Testimonial Block -->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="author-box">
-                  <div class="rating">
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                  </div>
-                  <div class="box-inner">
-                    <div class="quote-icon flaticon-quote-1"></div>
-                    <div class="image">
-                      <img src="images/resource/author-2.png" alt="" />
-                    </div>
-                    <h4>Jackes Smith</h4>
-                    <div class="designation">Market Manager</div>
-                  </div>
-                </div>
-                <div class="text">
-                  “Website development begins with the fact that a specialist
-                  professionally studies your market, target audience and
-                  competitors. For each customer, we draw up detailed
-                  instructions“
-                </div>
-              </div>
-            </div>
+                    .overlay:hover {
+                      opacity: 1;
+                    }
 
-            <!-- Testimonial Block -->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="author-box">
-                  <div class="rating">
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                  </div>
-                  <div class="box-inner">
-                    <div class="quote-icon flaticon-quote-1"></div>
-                    <div class="image">
-                      <img src="images/resource/author-1.png" alt="" />
-                    </div>
-                    <h4>Angilina MArker</h4>
-                    <div class="designation">Business CEO</div>
-                  </div>
-                </div>
-                <div class="text">
-                  “Website development begins with the fact that a specialist
-                  professionally studies your market, target audience and
-                  competitors. For each customer, we draw up detailed
-                  instructions“
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial Block -->
-            <div class="testimonial-block">
-              <div class="inner-box">
-                <div class="author-box">
-                  <div class="rating">
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                  </div>
-                  <div class="box-inner">
-                    <div class="quote-icon flaticon-quote-1"></div>
-                    <div class="image">
-                      <img src="images/resource/author-2.png" alt="" />
-                    </div>
-                    <h4>Jackes Smith</h4>
-                    <div class="designation">Market Manager</div>
-                  </div>
-                </div>
-                <div class="text">
-                  “Website development begins with the fact that a specialist
-                  professionally studies your market, target audience and
-                  competitors. For each customer, we draw up detailed
-                  instructions“
+                    .text {
+                      color: white;
+                      font-size: 24px;
+                      font-weight: bold;
+                      text-align: center;
+                    }
+                  </style>
+                  <div class="category">Cloude</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End Testimonial Section -->
 
-      <!-- Team Section -->
-      <section class="team-section">
+      <!-- Team Section Two -->
+      <!-- <section class="team-section-two">
         <div
           class="pattern-layer"
           style="background-image: url(images/background/pattern-6.png)"
@@ -1452,458 +1193,559 @@
           style="background-image: url(images/background/pattern-7.png)"
         ></div>
         <div class="auto-container">
-          <!-- Sec Title -->
-          <div class="sec-title light centered">
-            <h2>We Make The Perfect <span>Solutions</span></h2>
-            <div class="text">
-              We are committed to providing our customers with exceptional
-              service <br />
-              while offering our employees the best training.
-            </div>
-          </div>
-          <div class="four-item-carousel owl-carousel owl-theme">
-            <!-- Team Block -->
-            <div class="team-block">
-              <div class="inner-box">
-                <div class="image">
-                  <a href="team.html"
-                    ><img src="images/resource/team-1.jpg" alt=""
-                  /></a>
-                  <!-- Social Box -->
-                  <ul class="social-box">
-                    <li>
-                      <a href="#" class="fa fa-facebook-f"
-                        ><i class="name">Facebook</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-twitter"
-                        ><i class="name">twitter</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-pinterest-p"
-                        ><i class="name">pinterest</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-dribbble"
-                        ><i class="name">dribbble</i></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="lower-content">
-                  <h4><a href="team.html">Ember Naksan</a></h4>
-                  <div class="designation">UL / UX Designer</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Block -->
-            <div class="team-block">
-              <div class="inner-box">
-                <div class="image">
-                  <a href="team.html"
-                    ><img src="images/resource/team-2.jpg" alt=""
-                  /></a>
-                  <!-- Social Box -->
-                  <ul class="social-box">
-                    <li>
-                      <a href="#" class="fa fa-facebook-f"
-                        ><i class="name">Facebook</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-twitter"
-                        ><i class="name">twitter</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-pinterest-p"
-                        ><i class="name">pinterest</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-dribbble"
-                        ><i class="name">dribbble</i></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="lower-content">
-                  <h4><a href="team.html">Mike Jessica</a></h4>
-                  <div class="designation">Digital Marketing</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Block -->
-            <div class="team-block">
-              <div class="inner-box">
-                <div class="image">
-                  <a href="team.html"
-                    ><img src="images/resource/team-3.jpg" alt=""
-                  /></a>
-                  <!-- Social Box -->
-                  <ul class="social-box">
-                    <li>
-                      <a href="#" class="fa fa-facebook-f"
-                        ><i class="name">Facebook</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-twitter"
-                        ><i class="name">twitter</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-pinterest-p"
-                        ><i class="name">pinterest</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-dribbble"
-                        ><i class="name">dribbble</i></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="lower-content">
-                  <h4><a href="team.html">Kevin Hardson</a></h4>
-                  <div class="designation">SEO Content Writer</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Block -->
-            <div class="team-block">
-              <div class="inner-box">
-                <div class="image">
-                  <a href="team.html"
-                    ><img src="images/resource/team-4.jpg" alt=""
-                  /></a>
-                  <!-- Social Box -->
-                  <ul class="social-box">
-                    <li>
-                      <a href="#" class="fa fa-facebook-f"
-                        ><i class="name">Facebook</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-twitter"
-                        ><i class="name">twitter</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-pinterest-p"
-                        ><i class="name">pinterest</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-dribbble"
-                        ><i class="name">dribbble</i></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="lower-content">
-                  <h4><a href="team.html">Rose Brown</a></h4>
-                  <div class="designation">Web Developer</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Block -->
-            <div class="team-block">
-              <div class="inner-box">
-                <div class="image">
-                  <a href="team.html"
-                    ><img src="images/resource/team-1.jpg" alt=""
-                  /></a>
-                  <!-- Social Box -->
-                  <ul class="social-box">
-                    <li>
-                      <a href="#" class="fa fa-facebook-f"
-                        ><i class="name">Facebook</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-twitter"
-                        ><i class="name">twitter</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-pinterest-p"
-                        ><i class="name">pinterest</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-dribbble"
-                        ><i class="name">dribbble</i></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="lower-content">
-                  <h4><a href="team.html">Ember Naksan</a></h4>
-                  <div class="designation">UL / UX Designer</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Block -->
-            <div class="team-block">
-              <div class="inner-box">
-                <div class="image">
-                  <a href="team.html"
-                    ><img src="images/resource/team-2.jpg" alt=""
-                  /></a>
-                  <!-- Social Box -->
-                  <ul class="social-box">
-                    <li>
-                      <a href="#" class="fa fa-facebook-f"
-                        ><i class="name">Facebook</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-twitter"
-                        ><i class="name">twitter</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-pinterest-p"
-                        ><i class="name">pinterest</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-dribbble"
-                        ><i class="name">dribbble</i></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="lower-content">
-                  <h4><a href="team.html">Mike Jessica</a></h4>
-                  <div class="designation">Digital Marketing</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Block -->
-            <div class="team-block">
-              <div class="inner-box">
-                <div class="image">
-                  <a href="team.html"
-                    ><img src="images/resource/team-3.jpg" alt=""
-                  /></a>
-                  <!-- Social Box -->
-                  <ul class="social-box">
-                    <li>
-                      <a href="#" class="fa fa-facebook-f"
-                        ><i class="name">Facebook</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-twitter"
-                        ><i class="name">twitter</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-pinterest-p"
-                        ><i class="name">pinterest</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-dribbble"
-                        ><i class="name">dribbble</i></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="lower-content">
-                  <h4><a href="team.html">Kevin Hardson</a></h4>
-                  <div class="designation">SEO Content Writer</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Team Block -->
-            <div class="team-block">
-              <div class="inner-box">
-                <div class="image">
-                  <a href="team.html"
-                    ><img src="images/resource/team-4.jpg" alt=""
-                  /></a>
-                  <!-- Social Box -->
-                  <ul class="social-box">
-                    <li>
-                      <a href="#" class="fa fa-facebook-f"
-                        ><i class="name">Facebook</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-twitter"
-                        ><i class="name">twitter</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-pinterest-p"
-                        ><i class="name">pinterest</i></a
-                      >
-                    </li>
-                    <li>
-                      <a href="#" class="fa fa-dribbble"
-                        ><i class="name">dribbble</i></a
-                      >
-                    </li>
-                  </ul>
-                </div>
-                <div class="lower-content">
-                  <h4><a href="team.html">Rose Brown</a></h4>
-                  <div class="designation">Web Developer</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Team Section -->
-
-      <!-- News Section -->
-      <section class="news-section">
-        <div class="auto-container">
-          <!-- Sec Title -->
+          
           <div class="sec-title centered">
             <h2>
-              READ NOW OUR LATEST <br />
-              NEWS & <span>ARTICLES</span>
+              Meet Our Experts <br />
+              Member <span>Team</span>
             </h2>
           </div>
-          <div class="row clearfix">
-            <!-- News Block -->
-            <div class="news-block col-lg-4 col-md-6 col-sm-12">
-              <div
-                class="inner-box wow fadeInLeft"
-                data-wow-delay="0ms"
-                data-wow-duration="1500ms"
-              >
-                <div
-                  class="pattern-layer"
-                  style="background-image: url(images/background/pattern-8.png)"
-                ></div>
+          <div class="four-item-carousel owl-carousel owl-theme">
+            
+            <div class="team-block-two">
+              <div class="inner-box">
                 <div class="image">
-                  <a href="blog-detail.html"
-                    ><img src="images/resource/news-1.jpg" alt=""
-                  /></a>
+                 <img src="images/resource/team-5.jpg" alt=""
+                  />
+                  <div class="overlay">
+                    <div class="text">
+                      <ul>
+                        <li><i class="fab fa-aws icon"></i>AWS</li>
+  <li><i class="fab fa-google icon"></i>GCP</li>
+  <li><i class="fas fa-cloud icon"></i>Cloude</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
                 <div class="lower-content">
-                  <ul class="post-meta">
-                    <li>
-                      <a href="blog-detail.html"
-                        ><span class="icon flaticon-timetable"></span>August 25,
-                        2021</a
-                      >
-                    </li>
-                    <li>
-                      <a href="blog-detail.html"
-                        ><span class="icon flaticon-email"></span>Comments 03</a
-                      >
-                    </li>
-                  </ul>
-                  <h3>
-                    <a href="blog-detail.html"
-                      >Creative Para Jóvenes: a Designer’s UI/UX Complete
-                      Checklist.</a
-                    >
-                  </h3>
+                  <h4><a href="team.html">Eaza Nimara</a></h4>
+                  <div class="designation">UL / UX Designer</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <!-- News Block -->
-            <div class="news-block col-lg-4 col-md-6 col-sm-12">
-              <div
-                class="inner-box wow fadeInUp"
-                data-wow-delay="0ms"
-                data-wow-duration="1500ms"
-              >
-                <div
-                  class="pattern-layer"
-                  style="background-image: url(images/background/pattern-8.png)"
-                ></div>
+            
+            <div class="team-block-two">
+              <div class="inner-box">
                 <div class="image">
-                  <a href="blog-detail.html"
-                    ><img src="images/resource/news-2.jpg" alt=""
+                  <a href="team.html"
+                    ><img src="images/resource/team-6.jpg" alt=""
                   /></a>
                 </div>
                 <div class="lower-content">
-                  <ul class="post-meta">
-                    <li>
-                      <a href="blog-detail.html"
-                        ><span class="icon flaticon-timetable"></span>August 25,
-                        2021</a
-                      >
-                    </li>
-                    <li>
-                      <a href="blog-detail.html"
-                        ><span class="icon flaticon-email"></span>Comments 03</a
-                      >
-                    </li>
-                  </ul>
-                  <h3>
-                    <a href="blog-detail.html"
-                      >Definitive Guide to Make a Daily More Productive Working
-                      Flow.</a
-                    >
-                  </h3>
+                  <h4><a href="team.html">Monica Josaf</a></h4>
+                  <div class="designation">Digital Marketing</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <!-- News Block -->
-            <div class="news-block col-lg-4 col-md-6 col-sm-12">
-              <div
-                class="inner-box wow fadeInRight"
-                data-wow-delay="0ms"
-                data-wow-duration="1500ms"
-              >
-                <div
-                  class="pattern-layer"
-                  style="background-image: url(images/background/pattern-8.png)"
-                ></div>
+            
+            <div class="team-block-two">
+              <div class="inner-box">
                 <div class="image">
-                  <a href="blog-detail.html"
-                    ><img src="images/resource/news-3.jpg" alt=""
+                  <a href="team.html"
+                    ><img src="images/resource/team-7.jpg" alt=""
                   /></a>
                 </div>
                 <div class="lower-content">
-                  <ul class="post-meta">
-                    <li>
-                      <a href="blog-detail.html"
-                        ><span class="icon flaticon-timetable"></span>August 25,
-                        2021</a
-                      >
-                    </li>
-                    <li>
-                      <a href="blog-detail.html"
-                        ><span class="icon flaticon-email"></span>Comments 03</a
-                      >
-                    </li>
-                  </ul>
-                  <h3>
-                    <a href="blog-detail.html"
-                      >The Start-Up Ultimate Guide to Make Your WordPress
-                      Journal.</a
-                    >
-                  </h3>
+                  <h4><a href="team.html">Jozaf Famla</a></h4>
+                  <div class="designation">SEO Content Writer</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="team-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="team.html"
+                    ><img src="images/resource/team-8.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h4><a href="team.html">Nimra Alaf</a></h4>
+                  <div class="designation">Web Developer</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="team-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="team.html"
+                    ><img src="images/resource/team-5.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h4><a href="team.html">Eaza Nimara</a></h4>
+                  <div class="designation">UL / UX Designer</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="team-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="team.html"
+                    ><img src="images/resource/team-6.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h4><a href="team.html">Monica Josaf</a></h4>
+                  <div class="designation">Digital Marketing</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="team-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="team.html"
+                    ><img src="images/resource/team-7.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h4><a href="team.html">Jozaf Famla</a></h4>
+                  <div class="designation">SEO Content Writer</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="team-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="team.html"
+                    ><img src="images/resource/team-8.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h4><a href="team.html">Nimra Alaf</a></h4>
+                  <div class="designation">Web Developer</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="team-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="team.html"
+                    ><img src="images/resource/team-5.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h4><a href="team.html">Eaza Nimara</a></h4>
+                  <div class="designation">UL / UX Designer</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="team-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="team.html"
+                    ><img src="images/resource/team-6.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h4><a href="team.html">Monica Josaf</a></h4>
+                  <div class="designation">Digital Marketing</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="team-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="team.html"
+                    ><img src="images/resource/team-7.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h4><a href="team.html">Jozaf Famla</a></h4>
+                  <div class="designation">SEO Content Writer</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="team-block-two">
+              <div class="inner-box">
+                <div class="image">
+                  <a href="team.html"
+                    ><img src="images/resource/team-8.jpg" alt=""
+                  /></a>
+                </div>
+                <div class="lower-content">
+                  <h4><a href="team.html">Nimra Alaf</a></h4>
+                  <div class="designation">Web Developer</div>
+
+                  <div class="share-box">
+                    <div class="box-inner">
+                      <div class="share fa fa-share-alt"></div>
+                      
+                      <ul class="social-box">
+                        <li><a href="#" class="fa fa-facebook-f"></a></li>
+                        <li><a href="#" class="fa fa-twitter"></a></li>
+                        <li><a href="#" class="fa fa-pinterest-p"></a></li>
+                        <li><a href="#" class="fa fa-dribbble"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- End Team Section -->
+
+      <!--Clients Section-->
+      <section class="clients-section">
+        <div class="auto-container">
+          <div class="sponsors-outer">
+            <!--Sponsors Carousel-->
+            <ul class="sponsors-carousel owl-carousel owl-theme">
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/clients/1.png" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/clients/2.png" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/clients/3.png" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/clients/4.png" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/clients/1.png" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/clients/2.png" alt="" /></a>
+                </figure>
+              </li>
+              <li class="slide-item">
+                <figure class="image-box">
+                  <a href="#"><img src="images/clients/3.png" alt="" /></a>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--End Clients Section-->
+
+      <!-- Testimonial Section Three -->
+      <section
+        class="testimonial-section-three"
+        style="background-image: url(images/background/4.jpg)"
+      >
+        <div class="auto-container">
+          <div class="testimonial-outer">
+            <!-- Client Testimonial Carousel -->
+            <div class="client-testimonial-carousel owl-carousel owl-theme">
+              <!-- Testimonial Block Three -->
+              <div class="testimonial-block-three">
+                <div class="inner-box">
+                  <div class="quote-icon flaticon-quote-1"></div>
+                  <div class="text">
+                    This is due to their excellent service, competitive pricing
+                    and customer support. It’s throughly refresing to get such a
+                    personal touch.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Block Three -->
+              <div class="testimonial-block-three">
+                <div class="inner-box">
+                  <div class="quote-icon flaticon-quote-1"></div>
+                  <div class="text">
+                    This is due to their excellent service, competitive pricing
+                    and customer support. It’s throughly refresing to get such a
+                    personal touch.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Block Three -->
+              <div class="testimonial-block-three">
+                <div class="inner-box">
+                  <div class="quote-icon flaticon-quote-1"></div>
+                  <div class="text">
+                    This is due to their excellent service, competitive pricing
+                    and customer support. It’s throughly refresing to get such a
+                    personal touch.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Block Three -->
+              <div class="testimonial-block-three">
+                <div class="inner-box">
+                  <div class="quote-icon flaticon-quote-1"></div>
+                  <div class="text">
+                    This is due to their excellent service, competitive pricing
+                    and customer support. It’s throughly refresing to get such a
+                    personal touch.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Block Three -->
+              <div class="testimonial-block-three">
+                <div class="inner-box">
+                  <div class="quote-icon flaticon-quote-1"></div>
+                  <div class="text">
+                    This is due to their excellent service, competitive pricing
+                    and customer support. It’s throughly refresing to get such a
+                    personal touch.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial Block Three -->
+              <div class="testimonial-block-three">
+                <div class="inner-box">
+                  <div class="quote-icon flaticon-quote-1"></div>
+                  <div class="text">
+                    This is due to their excellent service, competitive pricing
+                    and customer support. It’s throughly refresing to get such a
+                    personal touch.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product Thumbs Carousel -->
+            <div class="client-thumb-outer">
+              <div class="client-thumbs-carousel owl-carousel owl-theme">
+                <div class="thumb-item">
+                  <figure class="thumb-box">
+                    <img src="images/resource/author-5.jpg" alt="" />
+                  </figure>
+                  <div class="author-info">
+                    <div class="author-name">Angilina MArker</div>
+                    <div class="designation">Business CEO</div>
+                  </div>
+                </div>
+                <div class="thumb-item">
+                  <figure class="thumb-box">
+                    <img src="images/resource/author-6.jpg" alt="" />
+                  </figure>
+                  <div class="author-info">
+                    <div class="author-name">Angilina MArker</div>
+                    <div class="designation">Business CEO</div>
+                  </div>
+                </div>
+                <div class="thumb-item">
+                  <figure class="thumb-box">
+                    <img src="images/resource/author-7.jpg" alt="" />
+                  </figure>
+                  <div class="author-info">
+                    <div class="author-name">Angilina MArker</div>
+                    <div class="designation">Business CEO</div>
+                  </div>
+                </div>
+
+                <div class="thumb-item">
+                  <figure class="thumb-box">
+                    <img src="images/resource/author-5.jpg" alt="" />
+                  </figure>
+                  <div class="author-info">
+                    <div class="author-name">Angilina MArker</div>
+                    <div class="designation">Business CEO</div>
+                  </div>
+                </div>
+                <div class="thumb-item">
+                  <figure class="thumb-box">
+                    <img src="images/resource/author-6.jpg" alt="" />
+                  </figure>
+                  <div class="author-info">
+                    <div class="author-name">Angilina MArker</div>
+                    <div class="designation">Business CEO</div>
+                  </div>
+                </div>
+                <div class="thumb-item">
+                  <figure class="thumb-box">
+                    <img src="images/resource/author-7.jpg" alt="" />
+                  </figure>
+                  <div class="author-info">
+                    <div class="author-name">Angilina MArker</div>
+                    <div class="designation">Business CEO</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- End News Section -->
+      <!-- End Testimonial Section Three -->
+
+      <!-- News Section Three -->
+
+      <!-- End News Section Three -->
 
       <!-- CTA Section Two -->
       <section class="cta-section-two">
@@ -1949,12 +1791,10 @@
                         /></a>
                       </div>
                       <div class="text">
-                        Welcome to our web design agency. Lorem ipsum simply
-                        free text dolor sited amet cons cing elit. There are
-                        many variations of passages the majority have suffered
-                        alteration in some fo injected humour.
+                        Welcome to our web design Morancy. Lorem ipsum simply
+                        free text dolor sited amet cons cing elit.
                       </div>
-                      <!-- Social Box -->
+
                       <ul class="social-box">
                         <li><a href="#" class="fa fa-facebook-f"></a></li>
                         <li><a href="#" class="fa fa-twitter"></a></li>
@@ -1968,14 +1808,25 @@
                   <div class="footer-column col-lg-5 col-md-6 col-sm-12">
                     <div class="footer-widget links-widget">
                       <h4>LINKS EXPLORE</h4>
-                      <ul class="list-link-two">
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Meet Our Team</a></li>
-                        <li><a href="#">Our Portfolio</a></li>
-                        <li><a href="#">Latest News</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Our Service</a></li>
-                      </ul>
+                      <div class="row clearfix">
+                        <div class="column col-lg-6 col-md-6 col-sm-6">
+                          <ul class="list-link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Our Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Help</a></li>
+                          </ul>
+                        </div>
+                        <div class="column col-lg-6 col-md-6 col-sm-6">
+                          <ul class="list-link">
+                            <li><a href="#">Meet Our Team</a></li>
+                            <li><a href="#">Latest News</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Terms Of Use</a></li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1988,25 +1839,17 @@
                   <div class="footer-column col-lg-6 col-md-6 col-sm-12">
                     <div class="footer-widget contact-widget">
                       <h4>CONTACT</h4>
-                      <ul class="list-style-four">
+                      <ul class="list-style-two">
                         <li>
-                          <strong
-                            ><span class="icon flaticon-maps-and-flags"></span>
-                            Address</strong
-                          >PO Box 223158 Oliver Street East Victoria 2006 UK
+                          <span class="icon flaticon-maps-and-flags"></span>PO
+                          Box 223158 Oliver Street East Victoria 2006 UK
                         </li>
                         <li>
-                          <strong
-                            ><span class="icon flaticon-call-2"></span>CALL
-                            ANYTIME :</strong
-                          >
-                          Call Anytime :
-                          <a href="tel:666-999-0000">666 999 0000</a>
+                          <span class="icon flaticon-call-2"></span>CALL ANYTIME
+                          : <a href="tel:666-999-0000">666 999 0000</a>
                         </li>
                         <li>
-                          <strong
-                            ><span class="icon flaticon-email-2"></span>Email
-                            Address</strong
+                          <span class="icon flaticon-email-2"></span
                           ><a href="mailto:needhelp@Moran.com"
                             >needhelp@Moran.com</a
                           >
@@ -2025,7 +1868,7 @@
                       </div>
 
                       <!-- Newsletter Form -->
-                      <div class="newsletter-form-two">
+                      <div class="newsletter-form">
                         <form method="post" action="contact.html">
                           <div class="form-group">
                             <input
@@ -2036,7 +1879,7 @@
                               required=""
                             />
                             <button type="submit" class="submit-btn">
-                              Send Now
+                              <span class="icon flaticon-email-2"></span>
                             </button>
                           </div>
                         </form>
@@ -2115,7 +1958,7 @@
                       </li>
                     </ul>
                   </div>
-                  <!-- Social Box -->
+
                   <ul class="social-box">
                     <li class="facebook">
                       <a href="#" class="fa fa-facebook-f"></a>
@@ -2169,6 +2012,7 @@
     <!-- End Header Search -->
 
     <script src="js/jquery.js"></script>
+    <script src="js/video.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
@@ -2177,9 +2021,143 @@
     <script src="js/nav-tool.js"></script>
     <script src="js/mixitup.js"></script>
     <script src="js/owl.js"></script>
+    <script src="js/knob.js"></script>
     <script src="js/wow.js"></script>
+    <script src="js/isotope.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/script.js"></script>
     <script src="js/color-settings.js"></script>
+
+    <script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <!-- Slider Revolution extension scripts. ONLY NEEDED FOR LOCAL TESTING-->
+  <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+  <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+  <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+  <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+  <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+  <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+  <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+  <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+  <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+    <style>
+        @media only screen and (max-width: 760px){
+            .tp-mask-wrap{
+                    top: -89px;
+            }
+            .tp-caption.titel-1{
+                 font-size: 38px !important;
+           /*line-height: 60px !important;*/
+            }
+            .tp-loop-wrap{
+                top: -26px;
+            }
+            .fp_button_layer{
+                display:none !important;
+            } .rev_slider{
+                height: 223px !important;
+        }
+        }
+        .slider-video{
+            position:relative;
+        }
+         .slider-video:before{
+            position:absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            content:'';
+           background: #24181852;
+        }
+       
+        </style>
+
+
+
+
+
+    <script>
+        function submitProductForm(event, id) {
+            event.preventDefault(); // Prevent the default link behavior
+
+            // Create a form dynamically
+            var form = document.createElement('form');
+            form.action = 'services-details.php';
+            form.method = 'post';
+
+            // Create a hidden input field for the ID
+            var input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = 'id';
+            input.value = id;
+
+            // Append the input field to the form
+            form.appendChild(input);
+
+            // Append the form to the body and submit it
+            document.body.appendChild(form);
+            form.submit();
+        }
+    </script>
+    <script>
+        /*revolution-setting-js--------------------------*/
+
+        /* https://learn.jquery.com/using-jquery-core/document-ready/ */
+        jQuery(document).ready(function () {
+
+            /* initialize the slider based on the Slider's ID attribute from the wrapper above */
+            jQuery('#rev_slider_1').show().revolution({
+                parallax: {
+                    type: 'mouse+scroll',
+                    origo: 'slidercenter',
+                    speed: 400,
+                    levels: [5, 10, 15, 20, 25, 30, 35, 40,
+                        45, 46, 47, 48, 49, 50, 51, 55],
+                    disable_onmobile: 'on'
+                },
+
+                /* options are 'auto', 'fullwidth' or 'fullscreen' */
+                sliderLayout: 'auto',
+                /* RESPECT ASPECT RATIO */
+                minHeight: '500',
+                responsiveLevels: [1170, 1024, 778, 480],
+                visibilityLevels: [1170, 1024, 778, 480],
+                gridwidth: [1170, 1024, 778, 480],
+                gridheight: [775, 768, 860, 720],
+
+                /* basic navigation arrows and bullets */
+
+                /* basic navigation arrows and bullets */
+                navigation: {
+                    /*
+                       arrows: {
+                           enable: true,
+                           style: "zeus",
+                           hide_onleave: false
+                       },*/
+                    bullets: {
+                        enable: true,
+                        hide_onmobile: false,
+                        style: "uranus",
+                        hide_onleave: false,
+                        direction: "vertical",
+                        h_align: "right",
+                        v_align: "center",
+                        h_offset: 30,
+                        v_offset: 0,
+                        space: 12,
+                        tmp: '<span class="tp-bullet-inner"></span>'
+                    },
+
+
+                }
+            });
+        });
+
+    </script>
+
+
   </body>
 </html>
